@@ -5,8 +5,8 @@ import (
 )
 
 type LUID struct {
-	lowPart  uint32
-	highPart int32
+	LowPart  uint32
+	HighPart int32
 }
 
 type LSA_LAST_INTER_LOGON_INFO struct {
