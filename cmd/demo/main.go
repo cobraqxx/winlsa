@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	. "github.com/carlpett/winlsa"
+	. "github.com/cobraqxx/winlsa"
 )
 
 func main() {

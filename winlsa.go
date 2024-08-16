@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/carlpett/winlsa/internal/lsa"
+	"github.com/cobraqxx/winlsa/internal/lsa"
 )
 
 // A LUID is a locally unique identifier guaranteed to be unique on the
@@ -58,7 +58,7 @@ const (
 	// https://docs.microsoft.com/en-us/windows/win32/cimwin32prov/win32-logonsession,
 	// LogonType=0 is "Used only by the System account."
 	LogonTypeSystem LogonType = iota
-	_ // LogonType=1 is not used
+	_                         // LogonType=1 is not used
 	LogonTypeInteractive
 	LogonTypeNetwork
 	LogonTypeBatch

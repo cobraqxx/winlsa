@@ -1,4 +1,4 @@
-module github.com/carlpett/winlsa
+module github.com/cobraqxx/winlsa
 
 go 1.14
 
